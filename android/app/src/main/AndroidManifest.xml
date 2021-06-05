@@ -1,8 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.wisata_bandung">
-   <application
-        android:label="wisata_bandung"
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:label="Wisata Bandung"
         android:icon="@mipmap/ic_launcher">
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
