@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wisata_bandung/screens/main_screen.dart';
+import 'package:wisata_bandung/screen/main_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,6 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Wisata Bandung',
+      theme: ThemeData(
+        brightness: Brightness.dark
+      ),
       home: MainScreen(),
     );
   }
