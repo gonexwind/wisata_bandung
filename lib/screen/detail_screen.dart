@@ -164,15 +164,19 @@ class _DetailWebPageState extends State<DetailWebPage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  'Wisata Bandung',
-                  style: TextStyle(fontFamily: 'Staatliches', fontSize: 32),
+                Padding(
+                  padding: const EdgeInsets.only(top: 28),
+                  child: Text(
+                    'Wisata Bandung',
+                    style: TextStyle(fontFamily: 'Staatliches', fontSize: 32),
+                  ),
                 ),
                 SizedBox(height: 32),
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Expanded(
+                      flex: 2,
                       child: Column(
                         children: [
                           ClipRRect(
@@ -204,8 +208,9 @@ class _DetailWebPageState extends State<DetailWebPage> {
                         ],
                       ),
                     ),
-                    SizedBox(height: 50),
+                    SizedBox(width: 32),
                     Expanded(
+                      flex: 1,
                       child: Card(
                         child: Container(
                           padding: EdgeInsets.all(16),
@@ -223,8 +228,7 @@ class _DetailWebPageState extends State<DetailWebPage> {
                                 ),
                               ),
                               Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
                                   Row(
                                     children: [

@@ -18,9 +18,9 @@ class MainScreen extends StatelessWidget {
           if (constraints.maxWidth <= 600) {
             return TourismPlaceList();
           } else if (constraints.maxWidth <= 1200) {
-            return TourismPlaceGrid(gridCount: 4);
+            return TourismPlaceGrid(gridCount: 2);
           } else {
-            return TourismPlaceGrid(gridCount: 6);
+            return TourismPlaceGrid(gridCount: 4);
           }
         },
       ),
