@@ -1,6 +1,6 @@
 {
-    "name": "wisata_bandung",
-    "short_name": "wisata_bandung",
+    "name": "Wisata Bandung",
+    "short_name": "Wisata Bandung",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
