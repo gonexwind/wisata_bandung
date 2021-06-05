@@ -12,8 +12,8 @@
 ### Web UI
 
 <p float="left">
-  <img src="screenshot/web_main.png" width="25%" />
-  <img src="screenshot/web_detail.png" width="25%" />
+  <img src="screenshot/web_main.png" width="50%" />
+  <img src="screenshot/web_detail.png" width="50%" />
 </p>
 
 ## What I Used
